@@ -1,0 +1,395 @@
+          
+html{
+    scroll-behavior: smooth;  /*scrollu daha ağır kaymasını sağlar*/
+  }
+  
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  }
+  
+  body{
+    font-family: "montserrat" sans-serif;
+  }
+  
+ section{
+      padding: 100px 0px;
+      background-color:#122e44 ;
+}
+  
+    
+  
+    /*HEADER*/
+  
+    header{
+      background-color: rgb(25, 25, 26);
+      border-bottom: 1px solid #24caac;
+      position: fixed;
+      width: 100%;
+      z-index: 5;
+      
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        width: 80%;
+        padding: 20px 0px;
+
+    }
+
+    .nav-links{
+
+     display: flex;
+
+    }
+
+    .nav-links li a{
+
+        margin-left: 15px;
+        color: white;
+        padding: 10px 15px;
+        transition: all .5s ease-in-out;
+        border-radius: 5px;
+    }
+
+    .nav-links li a:hover{
+        
+        background-color: #24caac;
+
+    }
+
+    .logo a{
+        color: white;
+         font-weight: bold;
+        font-size: 25px;
+    }
+
+/*ANASAYFA*/
+
+    .inner-anasayfa{
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px auto;
+        width: 80%;
+    }
+
+    .child-anasayfa{
+        flex-basis: 45%;
+    }
+
+    .child-anasayfa h1{
+        font-size: 50px;
+        color: #24caac;
+    }
+
+    .span-anasayfa{
+        color: #950353;
+    }
+
+    .child-anasayfa p{
+        color: white;
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+
+    .btn{
+        margin-top: 5px;
+        border: 0px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: white;
+        background-color:rgb(0, 32, 146);
+        font-weight: bold;
+    }
+
+    .btn:hover{
+        background-color: #24caac;
+        transform: scale(0.9);
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+    }
+
+    /*YAZILIMLAR*/
+
+    .container{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        display:flex ;
+        align-items: center;
+        margin: 0 auto;
+        width: 80%;
+    
+        
+    }
+
+    .child-container{
+    flex-basis:31%;
+    color: white;
+    padding: 20px 25px;
+    background-color: #133c5b;
+    border-radius: 5px;
+    transition: all .5s ease-in;
+    }
+
+    .child-container:hover{
+        border: 1px solid #24caac;
+       
+    }
+ 
+    .child-container .icon{
+        font-size: 30px;
+        color: #24caac;
+    }
+
+    .child-container h3{
+        font-size: 25px;
+        margin: 5px 0px;
+    }
+
+    .child-container p{
+     font-size: 15px;
+
+    }
+
+    
+
+    .section-title{
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 40px;
+        padding: 5px 0;
+    }
+    
+
+    /*SERTİFİKALAR*/
+
+    .courses{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   width: 80%;
+   margin: 0 auto;
+    }
+
+  .course{
+   
+    flex-basis: 24%;
+    color: white;
+    padding: 20px 10px;
+    transition: all 0.3;
+    border-radius: 5px;
+  }
+
+  .course:hover{
+    border: 1px solid #24caac;
+  }
+
+img{
+    width: 100%;
+}
+
+  .detail{
+display: flex;
+justify-content: space-between;
+  }
+
+
+  .detail ul{
+    
+    color: yellow;
+    display: flex;
+  }
+
+
+  /*BAŞARILAR*/
+
+  .big-achivement{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .achivement-img{
+    flex-basis: 45%;
+  }
+
+  .achivement-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .box-achivement{
+
+    flex-basis: 46%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  .box{
+    flex-basis: 48%;
+    padding: 40px 30px;
+    border-radius: 5px;
+    color: white;
+    transition: .5s;
+  }
+
+  .box:hover{
+    transform: scale(0.9)
+  }
+
+  .box1{
+background-color: #eaa023;
+margin-bottom: 20px;
+  }
+  
+  .box2{
+background-color: #e91e63;
+margin-bottom: 20px;
+  }
+
+  .box3{
+background-color: #24caac;
+  }
+
+  .box4{
+background-color: #2f363e;
+  }
+
+  /*HAKKIMDA*/
+
+  .big-abaout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto; 
+    color: white;
+}
+
+.small-abaout{
+    flex-basis: 46%;
+    margin-bottom: 30px;
+}
+
+.abaout-img{
+    width: 80px;
+    margin-bottom: 20px;
+    
+}
+
+.abaout-img img{
+    border-radius: 50%;
+}
+
+.small-abaout p{
+    padding: 10px 0;
+}
+.small-abaout a{
+    font-size: 20px;
+}
+
+.small-abaout a:hover{
+    
+    text-decoration: underline;
+}
+
+
+/*�LET���M*/
+
+
+.big-communication{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+.communication-img{
+    
+    flex-basis: 46%;
+}
+
+.communication-img img{
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.form-communication{
+    flex-basis: 46%;
+}
+
+.form-communication form{
+    
+    text-align: center;
+    background-color: #192c3a;
+    padding: 50px 40px;
+}
+
+.form-communication .inputs{
+width: 90%;
+border: 0;
+background-color: #273036;
+border-radius: 15px;
+padding: 10px 10px;
+margin-bottom: 15px;
+}
+
+.form-communication .inputs,textarea:focus
+{
+    border: 1px sold white;
+    transition: .5s;
+    transform: scale(0.9);
+}
+
+.btn-submit{
+    width: 90%;
+    color: white;
+    background-color: #24caac;
+    padding: 10px 0px;
+    border-radius: 10px;
+
+}
+
+.btn-submit:hover{
+    cursor: pointer;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: #273036;
+}
+
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}           
+           
